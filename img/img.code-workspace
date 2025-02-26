@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../img"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "INDEKS.CSS",
+		"liveServer.settings.port": 5501
+	}
+}

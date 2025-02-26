@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="img-sait/logo_sait-removebg-preview.png" alt="">
+        <h2>SportWay</h2>
+        <nav class="navLogo">
+            <div class="navLogo">
+                <a href="http://127.0.0.1:5500/login.html"><img class="logoPerson" src="/img/person-logo-removebg-preview.png" alt=""></a>
+                <a href="https://www.instagram.com/?locale=ru"><img class="logoInst" src="img-sait/images__2_-removebg-preview.png" alt="https://www.instagram.com/?locale=ru"></a>
+                <a href="https://vk.com/feed"><img class="logoVk" src="/img/vklogo-removebg-preview.png" alt="https://vk.com/feed"></a>
+                <a href="https://www.whatsapp.com/?lang=ru_RU"><img class="logoWhat" src="/img/whatsapp-removebg-preview-removebg-preview (1).png" alt="https://www.whatsapp.com/?lang=ru_RU"></a>
+                <a href="" id="menuToggle"><button onclick="showModal()"class="btnPerson"><img class="logoMenu" src="/img/images-removebg-preview.png" alt=""></button></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <nav class="navMain">
+            <div class="mainNav">
+                <div class="mainNav">
+                    <a class="here" href="">ГЛАВНОЕ</a>
+                    <a href="http://127.0.0.1:5501/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%A1%D0%B0%D0%B9%D1%82/box.html">ПОСЛЕДНЕЕ</a>
+                    <a href="">ОБСУЖДАЕМОЕ</a>
+                </div>
+                <div class="mainNav">
+                    <a href="http://127.0.0.1:5501/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%A1%D0%B0%D0%B9%D1%82/UfS.html">🏅UFC</a>
+                    <a href="http://127.0.0.1:5500/box.html"> 🥊 BOXING</a>
+                    <a href="">⚽FOOTBALL</a>
+                    <a href="">🏀BASKETBALL</a>
+                    <form id="searchForm">
+                        <input id="search" class="search" type="text" placeholder="ПОЙСК">
+                        <button id="btnLogo" type="submit"><img class="btnLogo" src="img-sait/лого-пойск-removebg-preview.png" alt=""></button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <hr>
+        </nav>
+      
+        <section class="news-section">
+            <h2 class="novosty">Новости спорта</h2>
+            <div class="news-container">
+                <article class="news-card">
+                    <img src="https://backend.runasport.com/storage/app/uploads/public/678/0da/cc7/thumb_10392_1200_0_0_0_landscape.jpg" alt="UFC">
+                    <h3>Громкий бой UFC</h3>
+                    <p>В предстоящем турнире UFC топовые бойцы сразятся за титул.</p>
+                    <a href="#" class="read-more" data-news="UFC: Полная новость о бое...">Читать далее</a>
+                </article>
+                <article class="news-card">
+                    <img src="https://cdn.sovsport.prod.plat.agency/Getty_Images_1595535389_copy_65769bc934.webp" alt="Boxing">
+                    <h3>Чемпионский бой по боксу</h3>
+                    <p>Не пропустите главное боксерское событие этого года!</p>
+                    <a href="#" class="read-more" data-news="Бокс: Полная новость о чемпионском бое...">Читать далее</a>
+                </article>
+                <article class="news-card">
+                    <img src="https://www.idman.biz/media/2024/04/01/1920x1280/gettyimages-1458491605.jpg?v=1711976973" alt="Football">
+                    <h3>Футбольные трансферы</h3>
+                    <p>Топовые клубы Европы готовятся к зимнему трансферному окну.</p>
+                    <a href="#" class="read-more" data-news="Футбол: Полная новость о трансферах...">Читать далее</a>
+                </article>
+                <article class="news-card">
+                    <img src="https://img.championat.com/s/732x488/news/big/z/g/stiven-karri_15172220551265558391.jpg" alt="Basketball">
+                    <h3>NBA: Лучшие матчи недели</h3>
+                    <p>Обзор самых захватывающих игр НБА на этой неделе.</p>
+                    <a href="#" class="read-more" data-news="Баскетбол: Полная новость о матчах НБА...">Читать далее</a>
+                </article> 
+            </div>
+        </section>
+
+        <section class="section">
+             <table class="table" >
+            <tr>
+                <th colspan="5">РЕЙТИНГ БОЙЦОВ UFC</th>
+            </tr>
+            <tr>
+                <th>ВНЕ ЗОВИСИМОСТИ ОТ</th>
+                <th>НАИЛЕГЧАЙШИЙ ВЕС</th>
+                <th>ЛЕГЧАЙШИЙ ВЕС</th>
+                <th>ПОЛУЛЕГКИЙ ВЕС</th>
+            </tr>
+            <tr>
+                <th>🔥ИСЛАМ МАХАЧЕВ</th>
+                <th>🔥АЛЕКСАНДР ПАНТОЖА</th>
+                <th>🔥МЕРАБ ДВАЛИШВИЛИ</th>
+                <th>🔥ИЛИЯ ТОПУРИЯ</th>
+            </tr>
+            <tr>
+                <th><img src="https://ufc.com/images/styles/athlete_profile_listing_medium_1x/s3/2024-10/MAKHACHEV_ISLAM_BELT_06-01.png?itok=GIl7tpm4" alt=""></th>
+                <th><img src="https://ufc.com/images/styles/athlete_profile_listing_medium_1x/s3/2024-10/PANTOJA_ALEXANDRE_BELT_05-04.png?itok=QLTudkzV" alt=""></th>
+                <th><img src="https://ufc.com/images/styles/athlete_profile_listing_medium_1x/s3/2024-10/DVALISHVILI_MERAB_BELT.png?itok=OKFXSy7G" alt=""></th>
+                <th><img src="https://ufc.com/images/styles/athlete_profile_listing_medium_1x/s3/2024-10/TOPURIA_ILIA_BELT-298.png?itok=u1mE91HN" alt=""></th>
+            </tr>
+            <tr>
+                <td>Ислам Махачев<hr></td>
+                <td>Брэндон Ройвал<hr></td>
+                <td>Шон О'Мэлли<hr></td>
+                <td>Александр Волкановски<hr></td>
+            </tr>
+            <tr>
+                <td>Алекс Перейра</td>
+                <td>Брэндон Морено	</td>
+                <td>Умар Нурмагомедов</td>
+                <td>Макс Холлоуэй</td>
+            </tr>
+            <tr>
+                <td>Джон Джонс</td>
+                <td>Амир Альбази</td>
+                <td>Петр Ян</td>
+                <td>Макс Холлоуэй</td>
+            </tr>
+            <tr>
+                <td>Илия Топурия</td>
+                <td>Кай Кара Фрэнс</td>
+                <td>Кори Сэндхаген</td>
+                <td>Диего Лопес</td>
+            </tr>
+            <tr>
+                <td>Белал Мухаммад</td>
+                <td>Татсуро Таира</td>
+                <td>Дейвесон Фигередо</td>
+                <td>Мовсар Евлоев</td>
+            </tr>
+            <tr>
+                <td>Дрикус Дю Плесси</td>
+                <td>Алекс Перез</td>
+                <td>Марлон Вера</td>
+                <td>Брайэн Ортега</td>
+            </tr>
+            <tr>
+                <td>Мераб Двалишвили</td>
+                <td>Матеус Николау</td>
+                <td>Генри Сехудо</td>
+                <td>Арнольд Аллен</td>
+            </tr>
+            <tr>
+                <td>Том Аспинэлл</td>
+                <td>Стив Эрцег</td>
+                <td>Сонг Ядонг</td>
+                <td>Джош Эмметт</td>
+            </tr>
+            <tr>
+                <td>Леон Эдвардс</td>
+                <td>Манель Кейпе</td>
+                <td>Марио Баутиста</td>
+                <td>Алджэмейн Стерлинг</td>
+            </tr>
+            <tr>
+                <td>Александр Волкановски</td>
+                <td>Тим Эллиотт</td>
+                <td>Роб Фонт</td>
+                <td>Келвин Кэттер</td>
+            </tr>
+        </table>
+        </section>
+        
+        <img class="lifestyle" src="/img/реклама-removebg-preview.png" alt="">
+        <section class="main-information"> 
+               
+                <div>
+                     <img class="main-info" src="https://www.sports.kz/upload/2024-10/695_6713aafc5aba3.jpg.webp" alt="">
+                     <p>Названы три группы <br> повышающих холестерин <br> продуктов</p>
+                </div>
+                <div>
+                     <img class="main-info" src="https://www.sports.kz/upload/2024-10/695_67139e1d3682a.jpg.webp" alt="">
+                        <p>Эксперты объяснили,<br> почему лучше отказаться <br> от салатов по вечерам</p>
+                </div>
+               <div>
+                    <img class="main-info" src="https://www.sports.kz/upload/2024-10/695_67139d6aae22f.jpg.webp" alt="">
+                    <p>Эти продукты — <br> самые полезные для <br> пожилых. Способствуют <br> здоровому старению</p>
+               </div>
+            
+             <div class="info">
+                <a class="info-1" href="">
+                     <div>ФИТНЕС</div>
+                </a>
+                <hr>
+                <br>
+               <a class="info-2" href="">
+                    <div>ПИТАНИЕ</div>
+               </a>
+               <hr>
+               <br>
+                <a class="info-3" href="">
+                      <div>МОТИВАЦИЯ</div>
+                </a>
+                <hr>
+                <br>
+                <a class="info-4" href="">
+                     <div>ЗДАРОВЬЕ</div>
+                </a>
+                <hr>
+                <br>
+               <a class="info-5" href="">
+                    <div>ФИЛЬМЫ И СЕРИАЛЫ</div>
+               </a>
+               <hr>
+               <br>
+               <a class="info-6" href="">
+                     <div>ХОББИ</div>
+               </a>
+               <hr>
+               <br>
+                <a class="info-7" href="">
+                    <div>КАЛЬКУЛЯТОР ЗДАРОВЬЯ</div>
+                </a>
+                <hr>
+            </div>
+        
+         </section>
+    </main>
+
+    <div id="newsModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;Чемпион UFC в полусреднем весе американский боец Белал Мухаммад (24-3) сделал громкое заявление о бое против казахстанца Шавката Рахмонова (18-0), передают Vesti.kz со ссылкой на Submission Radio.</span>
+            <p id="modalText">т</p>
+        </div>
+    </div>
+
+    <div id="registrationModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 style="color: rgb(44, 42, 37);">Регистрация</h2>
+            <form>
+                <label for="username" style="color: rgb(65, 62, 55);">Имя пользователя:</label><br>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="password" style="color: rgb(65, 61, 54);">Пароль:</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+                <input type="submit" value="Зарегистрироваться" style="background-color: rgb(97, 101, 126);">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerBox">
+            <div>
+               <form class="footerForm">
+                    <input class="footerInput" type="text"placeholder="🌐">
+                    <button class="footerBtn">Найти 🔎</button>
+               </form>
+               <div class="box">
+                <img class="youtobe" src="img-sait/youtoube-removebg-preview.png" alt="">
+                <h3 class="h3">YouTube Спорт-Экспресс</h3>
+                <hr>
+                </div>
+                <img class="footerlogo" src="img-sait/logo_sait-removebg-preview.png" alt="">
+            </div>
+           
+        </div>
+        <div class="h5">
+            <div><a class="h5h" href="">Спорт-Экспресс</a><br><br><br><a class="h5h" href="">Редакция и автора</a><br><br><br><a class="h5h" href="">Проверка фактов</a></div>
+            <div><a class="h5h" href="">Газета</a><br><br><br><a class="h5h" href="">Газетный номер</a><br><br><br><a class="h5h" href="">Оформить подписку</a></div> 
+            <div><a class="h5h" href="">Спецпроекты</a><br><br><br><a class="h5h" href="">Тесты и квизы</a><br><br><br><a class="h5h" href="">Зарплаты КХЛ</a></div>
+            <div><a class="h5h" href="">Личный кабинет</a><br><br><br><a class="h5h" href="">RSS,Телеграм бот,Дзен</a><br><br><br><a class="h5h" href="">Прововая информация</a></div>
+        </div>
+         
+    </footer>
+    
+      <script src="index.js"></script>
+</body>
+</html>
+
