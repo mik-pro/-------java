@@ -5,7 +5,7 @@ document.getElementById('searchForm').addEventListener('submit', function(event)
       alert('Поиск: ' + searchQuery);
   }
 });
-
+///читать далше коды
 document.querySelectorAll('.read-more').forEach(link => {
   link.addEventListener('click', function(event) {
       event.preventDefault();
@@ -13,7 +13,7 @@ document.querySelectorAll('.read-more').forEach(link => {
       document.getElementById('newsModal').style.display = 'flex';
   });
 });
-
+////лого коды
 document.querySelector('.close').addEventListener('click', function() {
   document.getElementById('newsModal').style.display = 'none';
 });
@@ -29,12 +29,12 @@ document.getElementById('menuToggle').addEventListener('click', function(event) 
     document.getElementById('registrationModal').style.display = 'block';
 }
 
-
+///логоны коды
 function closeModal() {
     document.getElementById('registrationModal').style.display = 'none';
 }
 
-
+/////логонын шыгып кетуыне коды
 window.onclick = function(event) {
     var modal = document.getElementById('registrationModal');
     if (event.target == modal) {
@@ -84,7 +84,7 @@ const news = [
     imageUrl: "https://www.sports.kz/upload/2024-11/249_6732502d86875.jpg.webp",
   }
 ];
-
+///читать дальше коды
 function setupReadMoreButtons() {
   document.querySelectorAll('.read-more').forEach(link => {
     link.addEventListener('click', function(event) {
@@ -96,7 +96,7 @@ function setupReadMoreButtons() {
   });
 }
 
-
+////пойск коды
 document.getElementById('searchForm').addEventListener('submit', function(event) {
   event.preventDefault();
   const searchQuery = document.getElementById('search').value.toLowerCase();
